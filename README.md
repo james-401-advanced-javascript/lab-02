@@ -38,3 +38,7 @@
 
 #### UML
 ![UML](./images/list-uml.png)
+
+****
+### Should validator.js export the class, or export an instance of the class? What are the pros and cons of each choice?
+* It should export an instance. The pro of doing this is that you can use it right away, where as you can't use the class by itself if it hasn't been instantiated. The con of doing it this way is that you can't create other instance of the original class by exporting an instance. Only clones of the instance. Those are the pros and cons of each respectively.
